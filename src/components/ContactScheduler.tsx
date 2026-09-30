@@ -36,7 +36,7 @@ export const ContactScheduler: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    topic: 'AI / RAG Architecture',
+    topic: 'Career & Job Opportunity',
     message: ''
   });
 
@@ -67,11 +67,11 @@ export const ContactScheduler: React.FC = () => {
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-100 tracking-tight">
-            Schedule an Architectural Intro
+            Schedule an Introduction Meeting
           </h2>
 
           <p className="text-base sm:text-lg text-slate-400 mt-4 leading-relaxed">
-            Ready to explore enterprise RAG integration, quantitative trading automation, or fractional principal architecture leadership? Book a 30-minute introductory strategy session below.
+            Whether you are exploring a technical leadership hire, following up on an application, interested in the MyTradingToolbox suite, or discussing software consulting—book a 30-minute introductory call below.
           </p>
         </div>
 
@@ -169,10 +169,10 @@ export const ContactScheduler: React.FC = () => {
             <div className="p-4 rounded-2xl bg-slate-900/60 border border-slate-800 text-xs text-slate-400 space-y-2">
               <div className="flex items-center gap-2 text-cyan-300 font-semibold">
                 <Clock className="w-4 h-4" />
-                <span>Consulting & Advisory Scope</span>
+                <span>Conversations & Scope</span>
               </div>
               <p className="leading-relaxed">
-                Available for high-impact technical advisory, AI RAG audits, zero-data-leakage system blueprints, and full-stack quant platform consulting.
+                Open to executive technical leadership roles, engineering team discussions, MyTradingToolbox walkthroughs, and custom software architecture advisory.
               </p>
             </div>
 
@@ -212,7 +212,7 @@ export const ContactScheduler: React.FC = () => {
 
                 <div className="flex items-center gap-2 text-xs font-mono text-emerald-400">
                   <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                  <span className="hidden sm:inline">30-Min Strategy Slot Ready</span>
+                  <span className="hidden sm:inline">30-Min Intro Slot Ready</span>
                 </div>
               </div>
 
@@ -227,11 +227,11 @@ export const ContactScheduler: React.FC = () => {
                         Live Booking Engine
                       </span>
                       <h4 className="text-base sm:text-lg font-bold text-slate-100 mt-0.5">
-                        Keith Thompson | 30-Minute Architecture Consultation
+                        Keith Thompson | 30-Minute Introduction Meeting
                       </h4>
                       <p className="text-xs text-slate-400 mt-0.5 flex items-center gap-1.5">
                         <Clock className="w-3.5 h-3.5 text-cyan-400" />
-                        <span>30 mins • Automatic Google Meet link generated upon booking</span>
+                        <span>30 mins • Web conferencing details provided upon booking</span>
                       </p>
                     </div>
 
@@ -251,7 +251,7 @@ export const ContactScheduler: React.FC = () => {
                     <iframe
                       src={`${PORTFOLIO_DATA.profile.calendarUrl}?embed=true`}
                       className="w-full h-[620px] border-0"
-                      title="Schedule a 30-Min Intro with Keith Thompson"
+                      title="Schedule an Intro with Keith Thompson"
                       loading="lazy"
                     />
                   </div>
@@ -259,10 +259,10 @@ export const ContactScheduler: React.FC = () => {
                   {/* Fallback & Custom Inquiries */}
                   <div className="p-3.5 rounded-xl bg-slate-900/50 border border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
                     <span className="text-slate-400">
-                      Need an immediate off-hours slot or custom NDA discussion?
+                      Need an immediate off-hours slot or custom discussion?
                     </span>
                     <a 
-                      href={`mailto:${PORTFOLIO_DATA.profile.email}?subject=Executive%20Intro%20Meeting%20Request`}
+                      href={`mailto:${PORTFOLIO_DATA.profile.email}?subject=Introduction%20Meeting%20Request`}
                       className="text-cyan-400 hover:underline font-semibold flex items-center gap-1"
                     >
                       <span>Email Direct Priority Request</span>
@@ -285,12 +285,12 @@ export const ContactScheduler: React.FC = () => {
                         Inquiry Received
                       </h4>
                       <p className="text-xs sm:text-sm text-slate-300 max-w-md mx-auto">
-                        Thank you for reaching out. Keith will review your architectural inquiry and respond directly to <span className="text-cyan-300 font-mono">{formData.email}</span> within 24 hours.
+                        Thank you for reaching out. Keith will review your message and respond directly to <span className="text-cyan-300 font-mono">{formData.email}</span> within 24 hours.
                       </p>
                       <button
                         onClick={() => {
                           setFormSubmitted(false);
-                          setFormData({ name: '', email: '', topic: 'AI / RAG Architecture', message: '' });
+                          setFormData({ name: '', email: '', topic: 'Career & Job Opportunity', message: '' });
                         }}
                         className="px-4 py-2 rounded-lg text-xs font-mono text-cyan-400 hover:underline cursor-pointer"
                       >
@@ -316,7 +316,7 @@ export const ContactScheduler: React.FC = () => {
                           <input
                             type="email"
                             required
-                            placeholder="e.g. s.jenkins@enterprise.com"
+                            placeholder="e.g. s.jenkins@company.com"
                             value={formData.email}
                             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                             className="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs sm:text-sm text-slate-100 focus:outline-hidden focus:border-cyan-500"
@@ -331,19 +331,19 @@ export const ContactScheduler: React.FC = () => {
                           onChange={(e) => setFormData({ ...formData, topic: e.target.value })}
                           className="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs sm:text-sm text-slate-100 focus:outline-hidden focus:border-cyan-500"
                         >
-                          <option value="AI / RAG Architecture">Enterprise RAG & Zero-Hallucination Grounding</option>
-                          <option value="FinTech & Quant Automation">Quant Options Trading & Tradier Automation</option>
-                          <option value="High-Throughput Concurrency">High-Availability Systems & Concurrency Architecture</option>
-                          <option value="Fractional Leadership">Principal / Fractional Advisory Role</option>
+                          <option value="Career & Job Opportunity">Job Opportunity / Technical Role Discussion</option>
+                          <option value="MyTradingToolbox Suite">MyTradingToolbox Suite & Trading Inquiry</option>
+                          <option value="AI & Systems Architecture">AI & Systems Architecture Consulting</option>
+                          <option value="General Intro & Networking">General Introduction & Networking</option>
                         </select>
                       </div>
 
                       <div>
-                        <label className="text-xs font-mono text-slate-300 block mb-1">Message / Scope Description</label>
+                        <label className="text-xs font-mono text-slate-300 block mb-1">Message / Note</label>
                         <textarea
                           rows={4}
                           required
-                          placeholder="Briefly describe your project, technical bottlenecks, or team requirements..."
+                          placeholder="Briefly describe what you would like to discuss..."
                           value={formData.message}
                           onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                           className="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs sm:text-sm text-slate-100 focus:outline-hidden focus:border-cyan-500"

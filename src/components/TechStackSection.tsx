@@ -37,7 +37,7 @@ export const TechStackSection: React.FC = () => {
           </h2>
 
           <p className="text-base sm:text-lg text-slate-400 mt-4 leading-relaxed">
-            Battle-tested across 25+ years of high-stakes financial scale and cutting-edge deterministic AI engineering.
+            Battle-tested across 29 years of high-stakes enterprise scale at SIG and cutting-edge deterministic AI engineering.
           </p>
         </div>
 

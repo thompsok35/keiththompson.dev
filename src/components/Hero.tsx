@@ -32,7 +32,7 @@ export const Hero: React.FC = () => {
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/95 border border-cyan-500/40 text-cyan-300 text-xs font-medium shadow-md backdrop-blur-md">
             <span className="w-2 h-2 rounded-full bg-cyan-400 animate-ping" />
             <span className="w-2 h-2 rounded-full bg-cyan-400 -ml-4" />
-            <span className="font-mono font-bold">25+ Yrs SIG Veteran • Principal AI & Systems Architect</span>
+            <span className="font-mono font-bold">29-Year SIG Veteran (1997–2026) • Principal AI & Systems Architect</span>
           </div>
 
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-950/80 border border-emerald-800 text-emerald-300 text-xs font-mono">
@@ -56,7 +56,7 @@ export const Hero: React.FC = () => {
             </h1>
 
             <p className="text-lg sm:text-xl text-slate-300 leading-relaxed font-normal">
-              <strong className="text-slate-100 font-semibold">25+ years</strong> architecting mission-critical trading platforms at <strong className="text-cyan-300 font-semibold">Susquehanna International Group (SIG, LLP)</strong>. Now channeling deep market-making discipline and AI-assisted development into a unified <strong className="text-slate-100 font-semibold">10-application financial software ecosystem</strong> under <span className="text-cyan-400 font-mono font-bold">MyTradingToolbox.com</span>.
+              <strong className="text-slate-100 font-semibold">29 years (1997 – 2026)</strong> at <strong className="text-cyan-300 font-semibold">Susquehanna International Group (SIG, LLP)</strong> architecting the configuration, deployment, and monitoring systems for a global <strong className="text-slate-100 font-semibold">17-site Citrix environment</strong> that hosted <strong className="text-cyan-300 font-semibold">90% of the firm's mission-critical trading applications</strong>. Now channeling that high-availability discipline and AI-assisted development into a unified <strong className="text-slate-100 font-semibold">8-application financial software ecosystem</strong> under <span className="text-cyan-400 font-mono font-bold">MyTradingToolbox.com</span>.
             </p>
 
             {/* Personal Mission Callout */}
@@ -87,7 +87,7 @@ export const Hero: React.FC = () => {
                 className="flex items-center gap-2.5 px-6 py-3.5 rounded-xl font-semibold bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 hover:from-cyan-400 hover:to-blue-500 shadow-lg shadow-cyan-500/25 transition-all hover:scale-105 active:scale-95 group cursor-pointer"
               >
                 <Layers className="w-5 h-5 text-slate-950" />
-                <span>Explore 10-App Financial Suite</span>
+                <span>Explore 8-App Financial Suite</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
 
@@ -111,7 +111,7 @@ export const Hero: React.FC = () => {
             {/* Verified Tech Highlights */}
             <div className="pt-2 flex flex-wrap items-center gap-2 text-xs font-mono text-slate-400">
               <span className="text-slate-500 uppercase tracking-wider text-[11px] mr-1">Ecosystem Tech:</span>
-              {['C# / ASP.NET Core (.NET 10)', 'PostgreSQL + pgvector', 'React 19 & TypeScript', 'Tradier WebSocket API', 'Quartz.NET Scheduler', 'Sinch SMS'].map((t) => (
+              {['C# / ASP.NET Core (.NET 10)', 'PostgreSQL + pgvector', 'React 19 & TypeScript', 'Tradier WebSocket API', 'Quartz.NET Scheduler', 'Sinch SMS', 'Google Gemini API'].map((t) => (
                 <span key={t} className="px-2.5 py-1 rounded-md bg-slate-900/90 border border-slate-800 text-slate-300">
                   {t}
                 </span>
@@ -141,7 +141,7 @@ export const Hero: React.FC = () => {
                       activeTab === 'ecosystem' ? 'bg-cyan-500/20 text-cyan-300 font-semibold' : 'text-slate-400 hover:text-slate-200'
                     }`}
                   >
-                    10 Apps
+                    Suite Apps
                   </button>
                   <button
                     onClick={() => setActiveTab('telemetry')}
@@ -154,32 +154,31 @@ export const Hero: React.FC = () => {
                 </div>
               </div>
 
-              {/* Tab Content: 10 Suite Apps Overview */}
+              {/* Tab Content: Suite Apps Overview */}
               {activeTab === 'ecosystem' && (
                 <div className="space-y-3 font-mono text-xs">
                   <div className="text-slate-400 text-xs flex items-center justify-between">
-                    <span>10 Interconnected Applications:</span>
+                    <span>8 Core Applications + Hub:</span>
                     <span className="text-cyan-400 font-bold">100% Operational</span>
                   </div>
 
                   <div className="space-y-1.5 max-h-[310px] overflow-y-auto pr-1">
                     {[
-                      { name: 'Opus Analysis Engine', role: 'Live Options Execution & Greeks', icon: TrendingUp, color: 'text-cyan-400 border-cyan-800/60' },
-                      { name: 'PayItForward (Roth IRA)', role: 'Custodial Dividend Snowball (SPYI/QQQI)', icon: Heart, color: 'text-emerald-400 border-emerald-800/60' },
-                      { name: 'CashMap Planner', role: 'Monthly Income & Expense Balancing', icon: Wallet, color: 'text-amber-400 border-amber-800/60' },
-                      { name: 'DataServicesPlatform', role: 'Company Due Diligence & DCF Screener', icon: Database, color: 'text-blue-400 border-blue-800/60' },
-                      { name: 'Market Data Vault & Backtest', role: '$0/mo EOD Harvester & Quant Backtest', icon: Activity, color: 'text-indigo-400 border-indigo-800/60' },
-                      { name: 'ITM Covered Call Bot', role: 'Delta Drift Monitor & Paper Execution', icon: Cpu, color: 'text-teal-400 border-teal-800/60' },
-                      { name: 'Opus Alerting Engine', role: 'Sinch SMS Alpha Dispatcher', icon: Sparkles, color: 'text-sky-400 border-sky-800/60' },
-                      { name: 'AI Options Coach', role: 'Deterministic RAG & Knowledge Graph', icon: ShieldCheck, color: 'text-emerald-400 border-emerald-800/60' },
-                      { name: 'Trading Toolbox Hub', role: 'Central Portal & SSO Token Bridge', icon: Layers, color: 'text-purple-400 border-purple-800/60' },
-                      { name: 'Executive Showcase', role: 'Architecture & Technical Portfolio', icon: CheckCircle2, color: 'text-cyan-400 border-cyan-800/60' }
+                      { name: 'Opus Analysis Engine', role: 'Live Options Execution & Greeks', icon: TrendingUp, color: 'text-cyan-400' },
+                      { name: 'PayItForward (Roth IRA)', role: 'Custodial Dividend Snowball (SPYI/QQQI)', icon: Heart, color: 'text-emerald-400' },
+                      { name: 'CashMap Planner', role: 'Monthly Income & Expense Balancing', icon: Wallet, color: 'text-amber-400' },
+                      { name: 'DataServicesPlatform', role: 'Company Due Diligence & DCF Screener', icon: Database, color: 'text-blue-400' },
+                      { name: 'Market Data Vault & Backtest', role: '$0/mo EOD Harvester & Quant Backtest', icon: Activity, color: 'text-indigo-400' },
+                      { name: 'ITM Covered Call Bot', role: 'Delta Drift Monitor & Paper Execution', icon: Cpu, color: 'text-teal-400' },
+                      { name: 'Opus Alerting Engine', role: 'Sinch SMS Alpha Dispatcher', icon: Sparkles, color: 'text-sky-400' },
+                      { name: 'AI Options Coach', role: 'Deterministic RAG & Google Gemini API', icon: ShieldCheck, color: 'text-emerald-400' },
+                      { name: 'Trading Toolbox Hub', role: 'Central Portal & SSO Token Bridge', icon: Layers, color: 'text-purple-400' }
                     ].map((app, idx) => {
                       const Icon = app.icon;
                       return (
                         <div key={idx} className="p-2 rounded-lg bg-slate-900/80 border border-slate-800/80 flex items-center justify-between">
                           <div className="flex items-center gap-2">
-                            <Icon className={`w-3.5 h-3.5 ${app.color.split(' ')[0]}`} />
+                            <Icon className={`w-3.5 h-3.5 ${app.color}`} />
                             <div>
                               <div className="font-semibold text-slate-200 text-xs">{app.name}</div>
                               <div className="text-slate-400 text-[10px]">{app.role}</div>
@@ -195,7 +194,7 @@ export const Hero: React.FC = () => {
 
                   <div className="text-center pt-1">
                     <a href="#suite" className="text-[11px] text-cyan-400 hover:underline flex items-center justify-center gap-1 font-semibold">
-                      <span>View full 10-application deep dive</span>
+                      <span>View full suite architecture deep dive</span>
                       <ArrowRight className="w-3 h-3" />
                     </a>
                   </div>
@@ -212,7 +211,7 @@ export const Hero: React.FC = () => {
                       <Activity className="w-4 h-4 text-emerald-400 animate-pulse" />
                       <div>
                         <div className="text-slate-200 font-semibold">SIG Core System Reliability</div>
-                        <div className="text-slate-400 text-[11px]">25+ Yrs Enterprise Production</div>
+                        <div className="text-slate-400 text-[11px]">29-Year Enterprise Track Record (1997–2026)</div>
                       </div>
                     </div>
                     <span className="px-2 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800 text-[11px] font-bold">
@@ -225,10 +224,10 @@ export const Hero: React.FC = () => {
                     <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800">
                       <div className="text-slate-400 text-[11px] flex items-center gap-1">
                         <Database className="w-3.5 h-3.5 text-cyan-400" />
-                        <span>Vector Latency</span>
+                        <span>Global Citrix Sites</span>
                       </div>
-                      <div className="text-xl font-bold text-slate-100 mt-1">&lt; 85ms</div>
-                      <div className="text-[10px] text-cyan-400">pgvector Cosine Search</div>
+                      <div className="text-xl font-bold text-slate-100 mt-1">17 Sites</div>
+                      <div className="text-[10px] text-cyan-400">90% Trading Apps Hosted</div>
                     </div>
 
                     <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800">
@@ -252,10 +251,10 @@ export const Hero: React.FC = () => {
                     <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800">
                       <div className="text-slate-400 text-[11px] flex items-center gap-1">
                         <Lock className="w-3.5 h-3.5 text-amber-400" />
-                        <span>Credential Vault</span>
+                        <span>CRON Migration</span>
                       </div>
-                      <div className="text-xl font-bold text-slate-100 mt-1">AES-256</div>
-                      <div className="text-[10px] text-slate-400">In-Memory Decryption</div>
+                      <div className="text-xl font-bold text-slate-100 mt-1">20,000+</div>
+                      <div className="text-[10px] text-slate-400">0 Production Incidents</div>
                     </div>
                   </div>
 

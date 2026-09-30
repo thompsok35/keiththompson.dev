@@ -25,7 +25,7 @@ export const Navbar: React.FC = () => {
   }, []);
 
   const navLinks = [
-    { name: '10-App Financial Suite', href: '#suite', icon: Layers },
+    { name: '8-App Financial Suite', href: '#suite', icon: Layers },
     { name: 'Architecture', href: '#architecture', icon: Cpu },
     { name: 'Enterprise Scale (SIG)', href: '#enterprise', icon: ShieldCheck },
     { name: 'Live Sandboxes (5)', href: '#demos', icon: Sparkles },
@@ -58,7 +58,7 @@ export const Navbar: React.FC = () => {
                 </span>
               </div>
               <p className="text-xs text-slate-400 font-mono hidden md:block">
-                Creator of MyTradingToolbox (10 Apps) • 25+ Yrs SIG Veteran
+                Creator of MyTradingToolbox • 29-Year SIG Veteran (1997–2026)
               </p>
             </div>
           </a>

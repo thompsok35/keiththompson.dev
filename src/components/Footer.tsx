@@ -44,7 +44,7 @@ export const Footer: React.FC = () => {
             </div>
 
             <p className="text-xs text-slate-400 max-w-md leading-relaxed">
-              Principal Systems & AI Integration Architect with 25+ years hardening high-availability platforms at Susquehanna International Group (SIG) and modern deterministic RAG engines.
+              Principal Systems & AI Integration Architect with 29 years (May 1997 – April 2026) hardening high-availability host & telemetry platforms at Susquehanna International Group (SIG) and modern deterministic RAG engines.
             </p>
 
             <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-slate-900 border border-slate-800 text-[11px] font-mono text-emerald-400">
@@ -59,11 +59,11 @@ export const Footer: React.FC = () => {
               Systems Vault
             </div>
             <ul className="space-y-1.5 text-slate-400">
-              <li><a href="#projects" className="hover:text-cyan-400 transition-colors">AI Trading Coach (RAG)</a></li>
-              <li><a href="#projects" className="hover:text-cyan-400 transition-colors">Opus Options Trader</a></li>
-              <li><a href="#projects" className="hover:text-cyan-400 transition-colors">High-Frequency Bot Engine</a></li>
+              <li><a href="#suite" className="hover:text-cyan-400 transition-colors">AI Trading Coach (RAG)</a></li>
+              <li><a href="#suite" className="hover:text-cyan-400 transition-colors">Opus Options Trader</a></li>
+              <li><a href="#suite" className="hover:text-cyan-400 transition-colors">PayItForward Roth IRA</a></li>
               <li><a href="#architecture" className="hover:text-cyan-400 transition-colors">Deterministic Grounding Pipeline</a></li>
-              <li><a href="#enterprise" className="hover:text-cyan-400 transition-colors">SIG 25+ Year Legacy</a></li>
+              <li><a href="#enterprise" className="hover:text-cyan-400 transition-colors">SIG 29-Year Scale (1997–2026)</a></li>
             </ul>
           </div>
 

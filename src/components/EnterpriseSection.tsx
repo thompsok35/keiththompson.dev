@@ -31,11 +31,11 @@ export const EnterpriseSection: React.FC = () => {
             </div>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-100 tracking-tight">
-              Decades of High-Stakes Scale at SIG
+              29 Years of High-Stakes Scale at SIG
             </h2>
 
             <p className="text-base sm:text-lg text-slate-400 mt-3 max-w-3xl">
-              25+ years hardening mission-critical trading infrastructure at <strong className="text-slate-200">Susquehanna International Group (SIG)</strong>, managing global exchange connectivity, 20,000+ task migrations, and enterprise telemetry across world markets.
+              May 1997 – April 2026 at <strong className="text-slate-200">Susquehanna International Group (SIG)</strong>: Architected the configuration and monitoring systems for a global 17-site Citrix environment hosting 90% of the firm's mission-critical trading applications, alongside leading 20,000+ task migrations and global telemetry across world markets.
             </p>
           </div>
 
@@ -46,7 +46,7 @@ export const EnterpriseSection: React.FC = () => {
             <div>
               <div className="text-xs font-mono text-slate-400 uppercase tracking-wider">Institution</div>
               <div className="text-sm font-bold text-slate-100">Susquehanna Int. Group (SIG)</div>
-              <div className="text-xs text-cyan-400 font-mono">25+ Year Tenure</div>
+              <div className="text-xs text-cyan-400 font-mono">29-Year Tenure (1997 – 2026)</div>
             </div>
           </div>
         </div>

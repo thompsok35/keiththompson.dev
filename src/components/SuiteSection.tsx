@@ -46,7 +46,7 @@ export const SuiteSection: React.FC<SuiteSectionProps> = ({
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/80 border border-cyan-800/60 text-cyan-300 text-xs font-mono mb-3">
               <Layers className="w-3.5 h-3.5" />
-              <span>Full Suite Ecosystem (10 Applications)</span>
+              <span>Full Suite Ecosystem (8 Applications + SSO Hub)</span>
             </div>
             
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-100 tracking-tight">
@@ -54,7 +54,7 @@ export const SuiteSection: React.FC<SuiteSectionProps> = ({
             </h2>
             
             <p className="text-base text-slate-400 mt-3 max-w-3xl leading-relaxed">
-              10 specialized, interconnected platforms engineered for production personal finance, generational dividend compounding, live options execution, market backtesting, and deterministic AI coaching.
+              8 specialized financial platforms and a central SSO gateway engineered for production personal finance, generational dividend compounding, live options execution, market backtesting, and deterministic AI coaching.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export const SuiteSection: React.FC<SuiteSectionProps> = ({
                     : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
                 }`}
               >
-                {cat === 'All' ? 'All 10 Apps' : cat}
+                {cat === 'All' ? 'All Suite Apps' : cat}
               </button>
             ))}
           </div>
@@ -82,7 +82,7 @@ export const SuiteSection: React.FC<SuiteSectionProps> = ({
             <div className="flex items-center gap-2.5">
               <GitBranch className="w-5 h-5 text-cyan-400" />
               <h3 className="font-bold text-slate-100 text-base sm:text-lg">
-                How Keith Thompson Orchestrates the 10-App Capital Pipeline
+                How Keith Thompson Orchestrates the Personal Capital Pipeline
               </h3>
             </div>
             <span className="text-xs font-mono text-emerald-400 bg-emerald-950/80 px-2.5 py-1 rounded-md border border-emerald-800/60 flex items-center gap-1.5">
@@ -140,7 +140,7 @@ export const SuiteSection: React.FC<SuiteSectionProps> = ({
           </div>
         </div>
 
-        {/* 10 Applications Grid */}
+        {/* Applications Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {filteredApps.map((app) => (
             <SuiteCard
@@ -165,7 +165,7 @@ export const SuiteSection: React.FC<SuiteSectionProps> = ({
               Looking for an AI Integration Architect or Principal Systems Engineer?
             </h3>
             <p className="text-xs sm:text-sm text-slate-400 max-w-2xl leading-relaxed">
-              From architecting 20,000+ task migrations at SIG to engineering 10 full-stack financial and AI applications from scratch, I bring battle-tested rigor, high development velocity, and complete ownership.
+              From architecting the global 17-site Citrix trading host environment and 20,000+ task migrations at SIG to engineering 8 full-stack financial and AI applications from scratch, I bring battle-tested rigor, high development velocity, and complete ownership.
             </p>
           </div>
 

@@ -58,8 +58,8 @@ export const PORTFOLIO_DATA = {
     name: 'Keith Thompson',
     title: 'Principal Systems & AI Integration Architect',
     subtitle: 'High-Availability Enterprise Systems Meets Modern AI Engineering',
-    experienceYears: '25+',
-    bio: '25+ years architecting mission-critical platforms at Susquehanna International Group (SIG, LLP), now channeling deep quantitative trading roots into AI-assisted development—engineering a cohesive 10-application financial software ecosystem under MyTradingToolbox.com.',
+    experienceYears: '29 Years (1997 – 2026)',
+    bio: '29 years (May 1997 – April 2026) at Susquehanna International Group (SIG, LLP) architecting the configuration, deployment, and real-time monitoring infrastructure for a global 17-site Citrix environment hosting 90% of the firm’s mission-critical trading applications for floor specialists and traders worldwide. Now channeling that high-availability engineering rigor and AI-assisted development into a unified 8-application financial software ecosystem under MyTradingToolbox.com.',
     personalStory: 'I personally build and use every single application in the MyTradingToolbox suite daily: from managing our household expenses and compounding Custodial Roth IRAs for my children and grandchild, to conducting fundamental company due diligence, running automated options execution bots, and backtesting options strategy ideas.',
     location: 'Lancaster, PA (Hybrid / Remote)',
     email: 'thompsok35@gmail.com',
@@ -68,23 +68,23 @@ export const PORTFOLIO_DATA = {
     calendarUrl: 'https://cal.com/keith-thompson-dev/15min',
     hubUrl: 'https://mytradingtoolbox.com',
     coreBadges: [
-      '25+ Years Quantitative Trading Systems at SIG, LLP',
-      'Creator of 10 Interconnected Financial & AI Applications',
-      '100% Deterministic RAG & Knowledge Graph Architect',
-      'Dogfooding: Used Daily for Family Wealth & Live Options Trading'
+      '29-Year SIG Veteran: Architect of 17-Site Global Trading App Host & Telemetry',
+      'Creator of MyTradingToolbox: 8 Interconnected Financial & AI Applications',
+      '100% Deterministic RAG & Knowledge Graph Architect (Google Gemini API)',
+      'Dogfooding: Used Daily for Family Wealth, Living Expenses & Live Options Trading'
     ]
   },
 
   heroMetrics: [
     {
-      value: '10 Apps',
+      value: '8 Apps + Hub',
       label: 'Integrated Financial Suite',
-      detail: 'Complete personal wealth, options execution, and AI research ecosystem'
+      detail: 'Personal wealth, options execution, fundamental screener & AI research ecosystem'
     },
     {
-      value: '25+ Years',
-      label: 'Quantitative Systems at SIG',
-      detail: 'Floor-trader terminals, 20k CRON migration & FINRA telemetry'
+      value: '29 Years',
+      label: 'Enterprise Scale at SIG',
+      detail: '17-site Citrix environment hosting 90% of trading apps & 20k CRON migration'
     },
     {
       value: '100%',
@@ -98,7 +98,7 @@ export const PORTFOLIO_DATA = {
     }
   ],
 
-  // Full 10 Applications in the MyTradingToolbox Suite
+  // Core 8 Financial Intelligence & Trading Applications + Central SSO Hub
   suiteApplications: [
     {
       id: 'opus-trader',
@@ -173,7 +173,7 @@ export function calculateITMCoveredCallMetrics(
         'Income Bucket Model (70% Core / 30% Satellite) orchestrating high-distribution collar ETFs (SPYI, QQQI, IWMI, BNDI, INHI, GLDI).',
         '6-Step Anti-Yield-Trap Engine programmatically verifying underlying asset transparency, distribution sustainability, and NAV preservation.',
         'Automated 6-Month Portfolio Drift Detector & 1-Click Rebalancer restoring target allocations.',
-        'Family Gifting Portal (`/gift/{token}`) with the "Compounding Gift Pitch" ($100 toy vs $100 dividend ETF compounding into $1,400+ by age 18) and celebratory Wall of Gratitude.',
+        'Family Gifting Portal (/gift/{token}) with the "Compounding Gift Pitch" ($100 toy vs $100 dividend ETF compounding into $1,400+ by age 18) and celebratory Wall of Gratitude.',
         'Zero-SSN compliance and AES-256-GCM envelope encryption for brokerage credentials.'
       ],
       metrics: [
@@ -475,7 +475,7 @@ export class SinchAlertDispatcher {
         'Multi-lens embedding with dense vector similarity (pgvector cosine distance) paired with structured keyword and relational metadata filters.',
         'Knowledge graph entity linkage disambiguating complex multi-leg options terminology (e.g. ITM Covered Calls vs Synthetic Longs).',
         'Deterministic Agent Gatekeeper: Sanitizes inputs and enforces strict AST citation validation against ground-truth chunks.',
-        'Zero Data Retention compliance ensuring full isolation of proprietary curriculum.'
+        'Google Gemini LLM orchestration with zero data retention compliance ensuring full isolation of proprietary curriculum.'
       ],
       metrics: [
         { label: 'Hallucination Rate', value: '0.0%' },
@@ -510,18 +510,18 @@ public async Task<GroundedSynthesisResult> GenerateGroundedAnswerAsync(string us
       repoName: 'trading-toolbox-hub',
       domain: 'mytradingtoolbox.com',
       category: 'AI & Ecosystem',
-      tagline: 'Single-pane-of-glass launchpad, unified token gateway, member portal, and navigation hub uniting the entire 10-app ecosystem.',
-      personalMission: 'The Hub is the command center tying our whole ecosystem together—allowing users and myself to log in once and seamlessly transition between Opus, CashMap, PayItForward, Alerts, and the AI Coach.',
-      badge: 'Unified Ecosystem Portal',
+      tagline: 'Single-pane-of-glass launchpad, cross-application JWT token gateway, and navigation hub uniting the 8 financial applications.',
+      personalMission: 'The Hub is the central launchpad tying our entire ecosystem together—allowing users and myself to log in once and seamlessly navigate between Opus, CashMap, PayItForward, Alerts, Backtest, and the AI Coach.',
+      badge: 'Central SSO Gateway & Portal',
       techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'JWT Token Bridge', 'Docker'],
       technicalHighlights: [
-        'Centralized authentication gateway issuing cross-application single sign-on tokens across the entire suite.',
+        'Centralized authentication gateway issuing cross-domain single sign-on tokens across the entire suite.',
         'Member Portal and Lead Capture funnel with automated customer tier onboarding.',
-        'High-converting interactive showcases for the 6 consumer suite apps and partner integrations (Tradier Brokerage, FinViz).',
+        'High-converting interactive showcases for the consumer suite apps and partner integrations (Tradier Brokerage, FinViz).',
         'Responsive glassmorphic UI with dynamic session persistence.'
       ],
       metrics: [
-        { label: 'Integrated Apps', value: 'All 10 Connected' },
+        { label: 'Integrated Apps', value: '8 Suite Apps' },
         { label: 'SSO Protocol', value: 'JWT Cross-Domain' },
         { label: 'UI Architecture', value: 'Framer Motion SPA' },
         { label: 'Partner Feeds', value: 'Tradier & FinViz' }
@@ -541,73 +541,31 @@ export class CrossAppTokenBridge {
 }`
       },
       demoType: 'bot'
-    },
-    {
-      id: 'keiththompson-portfolio',
-      name: 'Executive Technical Showcase & Architecture Portfolio',
-      repoName: 'keiththompson.dev',
-      domain: 'keiththompson.dev',
-      category: 'AI & Ecosystem',
-      tagline: 'High-converting digital portfolio showcasing 25+ years of high-stakes enterprise systems at SIG, LLP and the modern 10-app AI financial engineering suite.',
-      personalMission: 'This application is the public window into my engineering career—giving prospective employers, technical contract houses, and consulting clients an interactive, zero-barrier glimpse into the system architectures I build and run.',
-      badge: 'Executive Technical Portfolio',
-      techStack: ['React 19', 'TypeScript', 'Tailwind CSS v4', 'Docker', 'NGINX Alpine', 'Railway'],
-      technicalHighlights: [
-        'Zero Authentication Barrier: 100% public, frictionless exploration for hiring managers and recruiters.',
-        'Interactive 5-in-1 Client-Side Sandboxes: RAG Grounding, Options Math, Dividend Snowball, Due Diligence, and SMS Dispatcher.',
-        'Deep enterprise storytelling: 25+ years at SIG (PHLX/CBOE floor systems, 20k CRON migration, FINRA telemetry).',
-        'Railway-ready multi-stage Docker container with production NGINX SPA routing.'
-      ],
-      metrics: [
-        { label: 'Authentication Barrier', value: '0 (100% Open)' },
-        { label: 'Interactive Sandboxes', value: '5 Live Demos' },
-        { label: 'Container Build', value: 'Multi-stage NGINX' },
-        { label: 'Lighthouse Performance', value: '100% Optimized' }
-      ],
-      architectureSummary: 'High-performance React 19 single-page application containerized via Alpine NGINX on Railway, featuring interactive quant math engines and responsive scheduling.',
-      codeSnippet: {
-        title: 'Railway Multi-Stage Dockerfile Blueprint',
-        language: 'dockerfile',
-        code: `# Multi-Stage Docker Build
-FROM node:20-alpine AS build
-WORKDIR /app
-COPY package*.json ./
-RUN npm ci
-COPY . .
-RUN npm run build
-
-FROM nginx:alpine
-COPY --from=build /app/dist /usr/share/nginx/html
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]`
-      },
-      demoType: 'rag'
     }
   ] as SuiteApplication[],
 
   enterpriseLegacy: {
     company: 'Susquehanna International Group (SIG, LLP)',
-    tenure: '25+ Years of High-Stakes Scale',
-    overview: 'Pioneered, scaled, and hardened mission-critical quantitative trading infrastructure, floor-trader server farms, enterprise task automation, and global compliance telemetry across global financial exchanges.',
+    tenure: '29 Years at SIG (May 1997 – April 2026)',
+    overview: 'Architected the enterprise configuration, deployment, and real-time monitoring infrastructure for a global 17-site Citrix environment hosting 90% of SIG’s mission-critical trading applications, alongside leading 20,000+ task migrations and global telemetry across world financial markets.',
     milestones: [
       {
-        era: '1998 – Early 2000s',
+        era: '1997 – Early 2000s',
         organization: 'Susquehanna International Group (SIG, LLP)',
-        role: 'Systems & Infrastructure Architect',
-        title: 'Floor-Trader Market Making Pivot (PHLX / CBOE / AMEX)',
-        summary: 'Pioneered server-side multi-user application hosting using Citrix WinFrame/MetaFrame, transitioning trading floor specialists from fragile local hardware to resilient datacenter server farms.',
-        scaleMetric: 'Sub-second failovers across 3 major US Options Exchanges',
+        role: 'Citrix Infrastructure & Trading Host Architect',
+        title: 'Global 17-Site Citrix Trading Host Architecture (PHLX / CBOE / AMEX)',
+        summary: 'Architected the server-side multi-user application hosting, configuration, and monitoring systems for a global 17-site Citrix environment that hosted 90% of SIG’s mission-critical trading applications to traders worldwide.',
+        scaleMetric: 'Global 17-Site Infrastructure Hosting 90% of Mission-Critical Trading Apps',
         details: [
-          'Engineered low-latency terminal infrastructure for proprietary market-making desks at Philadelphia Stock Exchange (PHLX), Chicago Board Options Exchange (CBOE), and American Stock Exchange (AMEX).',
-          'Eliminated floor-hardware points of failure by centralizing quantitative pricing engines in redundant datacenter server clusters.',
-          'Maintained 99.999% uptime during historic market volatility events, ensuring floor traders never lost pricing feeds.'
+          'Architected high-availability configuration and automated deployment systems for a global 17-site Citrix environment serving trading floors and remote desks.',
+          'Delivered and hosted 90% of SIG’s mission-critical trading applications, transitioning trading floor specialists from fragile local hardware to resilient datacenter server farms.',
+          'Supported trading floor desks at the Philadelphia Stock Exchange (PHLX), Chicago Board Options Exchange (CBOE), and American Stock Exchange (AMEX) with sub-second failover and 99.999% uptime.'
         ],
-        technologies: ['Citrix WinFrame/MetaFrame', 'Windows NT Enterprise', 'Multi-User Server Architecture', 'Trading Floor Terminal Systems'],
-        impactBadges: ['Market Making Infrastructure', 'Zero Trading Halts', 'Sub-second Failover']
+        technologies: ['Citrix WinFrame / MetaFrame / XenApp', 'Multi-User Server Architecture', 'Trading Floor Terminal Systems', 'Global Site Replication'],
+        impactBadges: ['17 Global Sites', '90% of Trading Apps Hosted', 'Sub-second Failover']
       },
       {
-        era: 'Mid Career',
+        era: 'Mid Career (2000s – 2010s)',
         organization: 'Susquehanna International Group (SIG, LLP)',
         role: 'Enterprise Automation SWAT Lead',
         title: '20,000+ Mission-Critical UNIX CRON Migration',
@@ -622,19 +580,19 @@ CMD ["nginx", "-g", "daemon off;"]`
         impactBadges: ['Zero Downtime Migration', '20k+ Automated Pipelines', 'Global Risk Batch Hardening']
       },
       {
-        era: 'Senior / Principal Era',
+        era: 'Senior / Principal Era (2010s – 2026)',
         organization: 'Susquehanna International Group (SIG, LLP)',
         role: 'Principal Systems & Telemetry Architect',
-        title: 'Enterprise Telemetry, Session Monitoring & FINRA Compliance',
-        summary: 'Architected enterprise-wide monitoring platforms in C# and ASP.NET Core tracking 4,000+ applications, 8,000+ concurrent sessions worldwide, and automated regulatory audit pipelines.',
+        title: 'Enterprise Telemetry, Session Monitoring & Global Host Health',
+        summary: 'Architected enterprise-wide monitoring platforms in C# and ASP.NET Core tracking 4,000+ applications, 8,000+ concurrent sessions worldwide across the 17 global sites, with automated regulatory audit pipelines.',
         scaleMetric: '4,000+ Applications & 8,000+ Global Sessions Monitored in Real-Time',
         details: [
           'Built high-performance C# Windows Services and ASP.NET Core dashboards streaming live heartbeat, resource utilization, and crash telemetry across global offices (Bala Cynwyd, Dublin, Sydney, Shanghai).',
           'Automated FINRA and internal compliance audit reporting pipelines, ensuring 100% cryptographic traceability for trade execution and system access events.',
-          'Established enterprise logging standards and automated remediation workflows that reduced P1 production incidents by over 65%.'
+          'Established enterprise logging standards and automated remediation workflows that reduced P1 production incidents by over 65% across 17 global sites.'
         ],
         technologies: ['C# .NET / ASP.NET Core', 'SQL Server / Telemetry Pipelines', 'Distributed Service Bus', 'FINRA Regulatory Data Vaults', 'WCF / Microservices'],
-        impactBadges: ['8,000+ Concurrent Sessions', 'FINRA Audit Automated', 'Global Infrastructure Visibility']
+        impactBadges: ['17 Global Sites Monitored', '8,000+ Concurrent Sessions', 'FINRA Audit Automated']
       }
     ] as EnterpriseMilestone[]
   },
@@ -656,7 +614,7 @@ CMD ["nginx", "-g", "daemon off;"]`
       category: 'Backend & High-Concurrency Systems',
       iconName: 'Server',
       skills: [
-        { name: 'C# / ASP.NET Core (.NET 8/10)', level: 'Master / 20+ Yrs', experience: 'Enterprise' },
+        { name: 'C# / ASP.NET Core (.NET 8/10)', level: 'Master / 25+ Yrs', experience: 'Enterprise' },
         { name: 'TypeScript / Node.js', level: 'Expert', experience: 'Production' },
         { name: 'Distributed Task Scheduling (Quartz)', level: 'Master', experience: 'Enterprise' },
         { name: 'Event-Driven Architectures & Webhooks', level: 'Architect', experience: 'Production' },
@@ -688,13 +646,14 @@ CMD ["nginx", "-g", "daemon off;"]`
       ]
     },
     {
-      category: 'DevOps & Containerization',
+      category: 'DevOps & Enterprise Infrastructure',
       iconName: 'Cpu',
       skills: [
+        { name: 'Global Multi-Site Hosting (17 Sites)', level: 'Master / 29 Yrs', experience: 'Enterprise (SIG)' },
         { name: 'Docker & Multi-Stage Builds', level: 'Expert', experience: 'Production' },
         { name: 'Railway Cloud Deployment', level: 'Expert', experience: 'Production' },
         { name: 'NGINX High-Efficiency Reverse Proxy', level: 'Master', experience: 'Production' },
-        { name: 'UNIX / Linux / Bash Automation', level: 'Master / 25+ Yrs', experience: 'Enterprise' },
+        { name: 'UNIX / Linux / Bash Automation', level: 'Master / 29 Yrs', experience: 'Enterprise' },
         { name: 'CI/CD Pipelines & Automated Testing', level: 'Advanced', experience: 'Production' }
       ]
     }

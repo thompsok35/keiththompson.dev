@@ -87,7 +87,7 @@ export const Navbar: React.FC = () => {
               className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 hover:from-cyan-400 hover:to-blue-500 shadow-md shadow-cyan-500/20 transition-all hover:scale-105 active:scale-95"
             >
               <Calendar className="w-4 h-4 text-slate-950" />
-              <span>Schedule 15-Min Intro</span>
+              <span>Schedule 30-Min Intro</span>
             </a>
           </div>
 
@@ -126,7 +126,7 @@ export const Navbar: React.FC = () => {
               className="w-full flex items-center justify-center gap-2 px-4 py-3 rounded-lg text-sm font-semibold bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950"
             >
               <Calendar className="w-4 h-4" />
-              <span>Schedule 15-Min Intro</span>
+              <span>Schedule 30-Min Intro</span>
             </a>
           </div>
         </div>

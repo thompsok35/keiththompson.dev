@@ -71,7 +71,7 @@ export const ContactScheduler: React.FC = () => {
           </h2>
 
           <p className="text-base sm:text-lg text-slate-400 mt-4 leading-relaxed">
-            Ready to explore enterprise RAG integration, quantitative trading automation, or fractional principal architecture leadership? Book a 15-minute introductory session below.
+            Ready to explore enterprise RAG integration, quantitative trading automation, or fractional principal architecture leadership? Book a 30-minute introductory strategy session below.
           </p>
         </div>
 
@@ -194,7 +194,7 @@ export const ContactScheduler: React.FC = () => {
                     }`}
                   >
                     <Calendar className="w-4 h-4" />
-                    <span>Cal.com Direct Calendar</span>
+                    <span>Cal.com Live Calendar</span>
                   </button>
 
                   <button
@@ -212,78 +212,62 @@ export const ContactScheduler: React.FC = () => {
 
                 <div className="flex items-center gap-2 text-xs font-mono text-emerald-400">
                   <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                  <span className="hidden sm:inline">15-Min Intro Slot Ready</span>
+                  <span className="hidden sm:inline">30-Min Strategy Slot Ready</span>
                 </div>
               </div>
 
-              {/* Mode 1: Cal.com Responsive Container */}
+              {/* Mode 1: Cal.com Live Interactive Container & Iframe */}
               {schedulerMode === 'embed' && (
-                <div className="p-6 sm:p-8 space-y-6">
+                <div className="p-4 sm:p-6 space-y-4">
                   
-                  {/* Calendar Widget Visual UI */}
-                  <div className="rounded-xl bg-slate-950 border border-slate-800 p-6 space-y-6">
-                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-800">
-                      <div>
-                        <span className="text-xs font-mono uppercase tracking-wider text-cyan-400 font-semibold">
-                          15-Minute Technical Strategy Intro
-                        </span>
-                        <h4 className="text-lg sm:text-xl font-bold text-slate-100 mt-1">
-                          Keith Thompson | System Architecture Consultation
-                        </h4>
-                        <p className="text-xs text-slate-400 mt-1 flex items-center gap-2">
-                          <Clock className="w-3.5 h-3.5 text-cyan-400" />
-                          <span>15 mins • Web conferencing details provided upon booking</span>
-                        </p>
-                      </div>
-
-                      <a
-                        href={PORTFOLIO_DATA.profile.calendarUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-xs sm:text-sm bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 hover:from-cyan-400 hover:to-blue-500 shadow-md shadow-cyan-500/20 transition-all shrink-0"
-                      >
-                        <span>Open in Cal.com</span>
-                        <ExternalLink className="w-4 h-4" />
-                      </a>
+                  {/* Top action bar */}
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 rounded-xl bg-slate-950/80 border border-slate-800">
+                    <div>
+                      <span className="text-xs font-mono uppercase tracking-wider text-cyan-400 font-semibold">
+                        Live Booking Engine
+                      </span>
+                      <h4 className="text-base sm:text-lg font-bold text-slate-100 mt-0.5">
+                        Keith Thompson | 30-Minute Architecture Consultation
+                      </h4>
+                      <p className="text-xs text-slate-400 mt-0.5 flex items-center gap-1.5">
+                        <Clock className="w-3.5 h-3.5 text-cyan-400" />
+                        <span>30 mins • Automatic Google Meet link generated upon booking</span>
+                      </p>
                     </div>
 
-                    {/* Interactive Days / Time Slots Preview Grid */}
-                    <div className="space-y-4">
-                      <div className="text-xs font-mono text-slate-400 uppercase tracking-wider">
-                        Select a Preferred Session Slot:
-                      </div>
+                    <a
+                      href={PORTFOLIO_DATA.profile.calendarUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl font-semibold text-xs sm:text-sm bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 hover:from-cyan-400 hover:to-blue-500 shadow-md shadow-cyan-500/20 transition-all shrink-0 cursor-pointer"
+                    >
+                      <span>Open Full Page in Cal.com</span>
+                      <ExternalLink className="w-4 h-4" />
+                    </a>
+                  </div>
 
-                      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
-                        {[
-                          { day: 'Mon', date: 'Oct 5', slots: '10:00 AM, 2:30 PM' },
-                          { day: 'Tue', date: 'Oct 6', slots: '11:00 AM, 4:00 PM' },
-                          { day: 'Wed', date: 'Oct 7', slots: '9:30 AM, 1:00 PM' },
-                          { day: 'Thu', date: 'Oct 8', slots: '2:00 PM, 3:30 PM' },
-                        ].map((slot, sIdx) => (
-                          <div 
-                            key={sIdx}
-                            className="p-3 rounded-xl bg-slate-900/80 border border-slate-800 text-center hover:border-cyan-500/40 transition-colors"
-                          >
-                            <div className="text-xs font-bold text-slate-200">{slot.day}, {slot.date}</div>
-                            <div className="text-[10px] text-cyan-400 font-mono mt-1">{slot.slots}</div>
-                          </div>
-                        ))}
-                      </div>
+                  {/* Cal.com Embedded Iframe */}
+                  <div className="w-full rounded-xl overflow-hidden border border-slate-800 bg-slate-950/90 shadow-inner">
+                    <iframe
+                      src={`${PORTFOLIO_DATA.profile.calendarUrl}?embed=true`}
+                      className="w-full h-[620px] border-0"
+                      title="Schedule a 30-Min Intro with Keith Thompson"
+                      loading="lazy"
+                    />
+                  </div>
 
-                      <div className="p-4 rounded-xl bg-slate-900/50 border border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-                        <span className="text-slate-400">
-                          Need an immediate slot or custom NDA discussion?
-                        </span>
-                        <a 
-                          href={`mailto:${PORTFOLIO_DATA.profile.email}?subject=Executive%20Intro%20Meeting%20Request`}
-                          className="text-cyan-400 hover:underline font-semibold flex items-center gap-1"
-                        >
-                          <span>Email Direct Priority Request</span>
-                          <ArrowRight className="w-3.5 h-3.5" />
-                        </a>
-                      </div>
-                    </div>
-
+                  {/* Fallback & Custom Inquiries */}
+                  <div className="p-3.5 rounded-xl bg-slate-900/50 border border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+                    <span className="text-slate-400">
+                      Need an immediate off-hours slot or custom NDA discussion?
+                    </span>
+                    <a 
+                      href={`mailto:${PORTFOLIO_DATA.profile.email}?subject=Executive%20Intro%20Meeting%20Request`}
+                      className="text-cyan-400 hover:underline font-semibold flex items-center gap-1"
+                    >
+                      <span>Email Direct Priority Request</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </a>
                   </div>
 
                 </div>

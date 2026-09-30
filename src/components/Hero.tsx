@@ -104,7 +104,7 @@ export const Hero: React.FC = () => {
                 className="flex items-center gap-2 px-5 py-3.5 rounded-xl font-semibold text-slate-400 hover:text-slate-100 hover:bg-slate-900/50 transition-all text-xs sm:text-sm cursor-pointer"
               >
                 <Calendar className="w-4 h-4 text-cyan-400" />
-                <span>Book 15-Min Intro</span>
+                <span>Book 30-Min Intro</span>
               </a>
             </div>
 

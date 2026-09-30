@@ -65,7 +65,7 @@ export const PORTFOLIO_DATA = {
     email: 'thompsok35@gmail.com',
     github: 'https://github.com/thompsok35',
     linkedin: 'https://linkedin.com/in/keith-thompson-36b758',
-    calendarUrl: 'https://cal.com/keith-thompson-dev/15min',
+    calendarUrl: 'https://cal.com/keith-thompson/30min',
     hubUrl: 'https://mytradingtoolbox.com',
     coreBadges: [
       '29-Year SIG Veteran: Architect of 17-Site Global Trading App Host & Telemetry',
